@@ -1,12 +1,13 @@
 #!/bin/bash
 if [ "$2" == "" ]; then
-  echo "$0 <anIface> <aBridge>"
   echo ""
-  echo "Find <anIface>, remove it from any bridge, create <aBridge>"
-  echo "unless it's already there, put <anIface> into <aBridge>."
+  echo "  $0 <anIface> <aBridge>"
   echo ""
-  echo "If <aBridge> is none, then remove <anIface> from any bridge." 
-  echo "If <anIface> is none, then delete the bridge."
+  echo "  Find <anIface>, remove it from any bridge, create <aBridge>,"
+  echo "    put <anIface> into <aBridge>."
+  echo ""
+  echo "  If <anIface> is none, then delete <aBridge>."
+  echo "  If <aBridge> is none, then remove <anIface> from any bridge."
   echo ""
   exit 0
 fi
