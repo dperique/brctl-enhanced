@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ "$2" == "" ]; then
-  echo "./ebrctl.sh <anIface> <aBridge>"
+  echo "$0 <anIface> <aBridge>"
   echo ""
   echo "Find <anIface>, remove it from any bridge, create <aBridge>"
   echo "unless it's already there, put <anIface> into <aBridge>."
