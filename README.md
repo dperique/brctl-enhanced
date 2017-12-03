@@ -16,16 +16,12 @@ This script attempts to make things a little better.
 Examples:
 
 ```
-# Show help.
+# Show help (i.e., if no arguments, we show help).
 #
 $ ./ebrctl.sh
 ./ebrctl.sh <anIface> <aBridge>
 
-Find <anIface>, remove it from any bridge, create <aBridge>
-unless it's already there, put <anIface> into <aBridge>.
-
-If <aBridge> is none, then remove <anIface> from any bridge.
-If <anIface> is none, then delete the bridge.
+...
 
 # Remove the interface eth1 from any bridge.
 #
